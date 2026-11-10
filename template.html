@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mike Holp · Projects</title>
+<meta name="description" content="Open-source projects by Mike Holp: Linux and Windows desktop tools in Rust, web apps, and more.">
+<style>
+  :root { --bg: #fafafa; --fg: #1c1c22; --muted: #62626e; --card: #fff; --line: #e3e3ea; --accent: #3b5bdb; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #15151a; --fg: #ececf1; --muted: #9a9aa8; --card: #1e1e25; --line: #2e2e38; --accent: #8da9ff; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.55 system-ui, sans-serif; }
+  main { max-width: 64rem; margin: 0 auto; padding: 3rem 1rem 4rem; }
+  h1 { margin: 0 0 .25rem; font-size: 2rem; }
+  .lead { color: var(--muted); margin: 0 0 2rem; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover, a:focus-visible { text-decoration: underline; }
+  .grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr)); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 1rem 1.1rem; display: flex; flex-direction: column; }
+  .card h3 { margin: 0 0 .35rem; font-size: 1.1rem; overflow-wrap: anywhere; }
+  .card p { margin: 0 0 1rem; color: var(--muted); flex: 1; }
+  .card footer { display: flex; flex-wrap: wrap; gap: .4rem .9rem; font-size: .85rem; color: var(--muted); }
+  .lang::before { content: "●"; margin-right: .3rem; color: var(--accent); }
+  .when { margin-left: auto; }
+  footer.site { margin-top: 3rem; color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Mike Holp</h1>
+  <p class="lead">Founder of <a href="https://www.tubeanalytics.net">TubeAnalytics</a>. Open-source tools I build and maintain,
+  mostly native Linux and Windows apps in Rust. <a href="https://github.com/mikeholp87">GitHub profile</a>.</p>
+  <h2>Projects <small style="color:var(--muted);font-weight:400">(@COUNT@)</small></h2>
+  <section class="grid">
+@CARDS@
+  </section>
+  <footer class="site">Listed automatically from my public GitHub repositories.</footer>
+</main>
+</body>
+</html>
