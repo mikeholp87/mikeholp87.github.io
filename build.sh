@@ -36,4 +36,13 @@ page=$(<template.html)
 page=${page//@COUNT@/$count}
 page=${page//@CARDS@/$cards}
 printf '%s\n' "$page" >_site/index.html
+# robots.txt only counts at the host root, so this one lists the sitemap for every project Pages site.
+{
+	echo '<?xml version="1.0" encoding="UTF-8"?>'
+	echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+	echo "<url><loc>https://$owner.github.io/</loc></url>"
+	jq -r '.[]' <<<"$pages" | sed 's|.*|<url><loc>&</loc></url>|'
+	echo '</urlset>'
+} >_site/sitemap.xml
+printf 'User-agent: *\nAllow: /\n\nSitemap: https://%s.github.io/sitemap.xml\n' "$owner" >_site/robots.txt
 echo "Built _site/index.html with $count repositories"
