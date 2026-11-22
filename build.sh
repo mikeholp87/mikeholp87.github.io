@@ -45,4 +45,6 @@ printf '%s\n' "$page" >_site/index.html
 	echo '</urlset>'
 } >_site/sitemap.xml
 printf 'User-agent: *\nAllow: /\n\nSitemap: https://%s.github.io/sitemap.xml\n' "$owner" >_site/robots.txt
+# IndexNow ownership key (public by design): Bing and other engines fetch it from the site root.
+cp indexnow/*.txt _site/
 echo "Built _site/index.html with $count repositories"
