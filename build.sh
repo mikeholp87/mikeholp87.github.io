@@ -42,6 +42,13 @@ printf '%s\n' "$page" >_site/index.html
 	echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
 	echo "<url><loc>https://$owner.github.io/</loc></url>"
 	jq -r '.[]' <<<"$pages" | sed 's|.*|<url><loc>&</loc></url>|'
+	# Interactive demos live at <project site>/demo/; list one only once it is deployed.
+	for name in Tasky Luma-Launcher Restic-Studio update-forge strata-editor aegis-vpn; do
+		demo="https://$owner.github.io/$name/demo/"
+		if [[ $(curl -s -o /dev/null -w '%{http_code}' -L "$demo") == 200 ]]; then
+			echo "<url><loc>$demo</loc></url>"
+		fi
+	done
 	echo '</urlset>'
 } >_site/sitemap.xml
 printf 'User-agent: *\nAllow: /\n\nSitemap: https://%s.github.io/sitemap.xml\n' "$owner" >_site/robots.txt
