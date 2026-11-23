@@ -36,7 +36,6 @@ Tasky, Luma Launcher, Restic Studio and Strata Editor install from my signed apt
 
 | Project | What it is |
 | --- | --- |
-| [ai-income-lab](https://github.com/mikeholp87/ai-income-lab) | Source for [ai-automation-station.com](https://www.ai-automation-station.com/): AI build videos, guides and the AI Income Lab community. |
 | [seo-tool](https://github.com/mikeholp87/seo-tool) | SEO Scout, a free SEO analyzer for new websites. Scores 8 categories and gives actionable fixes. |
 | [solar-business-directory](https://github.com/mikeholp87/solar-business-directory) | UK directory of BUS and MCS approved solar and heat pump installers, with lead capture and an installer portal. |
 | [trading-app](https://github.com/mikeholp87/trading-app) | Alpaca trading app in JavaScript. |
