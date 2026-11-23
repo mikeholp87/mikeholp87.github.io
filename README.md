@@ -8,16 +8,16 @@ lists everything below and rebuilds daily.
 
 ## Desktop apps
 
-Each app has a project page, and most have an interactive browser demo that runs on sample data.
+Each app has a project page, and most run an interactive demo on sample data right in the page header.
 
 | Project | What it is | Platforms | Links |
 | --- | --- | --- | --- |
-| **Tasky** | Fast, private task manager and system monitor. Live graphs, process control, benchmarks, no telemetry. | Linux, Windows | [Site](https://mikeholp87.github.io/Tasky/) · [Demo](https://mikeholp87.github.io/Tasky/demo/) · [Code](https://github.com/mikeholp87/Tasky) |
-| **Luma Launcher** | Keyboard-driven application launcher with fuzzy search, favorites, a calculator and web search. | Linux, Windows preview | [Site](https://mikeholp87.github.io/Luma-Launcher/) · [Demo](https://mikeholp87.github.io/Luma-Launcher/demo/) · [Code](https://github.com/mikeholp87/Luma-Launcher) |
-| **Restic Studio** | Native GTK 4 backup and restore app for Restic. Encrypted backups to local folders and external drives. Early preview. | Linux | [Site](https://mikeholp87.github.io/Restic-Studio/) · [Demo](https://mikeholp87.github.io/Restic-Studio/demo/) · [Code](https://github.com/mikeholp87/Restic-Studio) |
-| **Strata Editor** | Native C++20 and Qt 6 editor for text, code, Markdown and formatted HTML. Offline, no telemetry. | Linux | [Site](https://mikeholp87.github.io/strata-editor/) · [Demo](https://mikeholp87.github.io/strata-editor/demo/) · [Code](https://github.com/mikeholp87/strata-editor) |
-| **Update Forge** | Software updater that finds outdated apps and updates them through WinGet, apt, Flatpak and more. No accounts. | Windows 11, Linux | [Site](https://mikeholp87.github.io/update-forge/) · [Demo](https://mikeholp87.github.io/update-forge/demo/) · [Code](https://github.com/mikeholp87/update-forge) |
-| **Aegis VPN** | WireGuard client with a verified kill switch and DNS and IPv6 leak checks. Bring your own server. Pre-alpha. | Linux, Windows in progress | [Site](https://mikeholp87.github.io/aegis-vpn/) · [Demo](https://mikeholp87.github.io/aegis-vpn/demo/) · [Code](https://github.com/mikeholp87/aegis-vpn) |
+| **Tasky** | Fast, private task manager and system monitor. Live graphs, process control, benchmarks, no telemetry. | Linux, Windows | [Site](https://mikeholp87.github.io/Tasky/) · [Code](https://github.com/mikeholp87/Tasky) |
+| **Luma Launcher** | Keyboard-driven application launcher with fuzzy search, favorites, a calculator and web search. | Linux, Windows preview | [Site](https://mikeholp87.github.io/Luma-Launcher/) · [Code](https://github.com/mikeholp87/Luma-Launcher) |
+| **Restic Studio** | Native GTK 4 backup and restore app for Restic. Encrypted backups to local folders and external drives. Early preview. | Linux | [Site](https://mikeholp87.github.io/Restic-Studio/) · [Code](https://github.com/mikeholp87/Restic-Studio) |
+| **Strata Editor** | Native C++20 and Qt 6 editor for text, code, Markdown and formatted HTML. Offline, no telemetry. | Linux | [Site](https://mikeholp87.github.io/strata-editor/) · [Code](https://github.com/mikeholp87/strata-editor) |
+| **Update Forge** | Software updater that finds outdated apps and updates them through WinGet, apt, Flatpak and more. No accounts. | Windows 11, Linux | [Site](https://mikeholp87.github.io/update-forge/) · [Code](https://github.com/mikeholp87/update-forge) |
+| **Aegis VPN** | WireGuard client with a verified kill switch and DNS and IPv6 leak checks. Bring your own server. Pre-alpha. | Linux, Windows in progress | [Site](https://mikeholp87.github.io/aegis-vpn/) · [Code](https://github.com/mikeholp87/aegis-vpn) |
 | **Disk Atlas** | Disk usage analyzer with sunburst and treemap views, largest files and read-only scans. Early build. | Linux | [Site](https://mikeholp87.github.io/disk-atlas/) · [Code](https://github.com/mikeholp87/disk-atlas) |
 | **ExtentPilot** | Read-only file extent and fragmentation analyzer using FIEMAP. Early build. | Linux | [Site](https://mikeholp87.github.io/defrag-hdd-linux/) · [Code](https://github.com/mikeholp87/defrag-hdd-linux) |
 | **msi-control-linux** | Hardware and power monitor for MSI NUC mini PCs: sensors, CPU and GPU state, power, NVMe health. Read-only. | Linux | [Code](https://github.com/mikeholp87/msi-control-linux) |
