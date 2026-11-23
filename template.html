@@ -26,6 +26,8 @@
   .card footer { display: flex; flex-wrap: wrap; gap: .4rem .9rem; font-size: .85rem; color: var(--muted); }
   .lang::before { content: "●"; margin-right: .3rem; color: var(--accent); }
   .when { margin-left: auto; }
+  .sponsor-heart { color: #bf3989; }
+  @media (prefers-color-scheme: dark) { .sponsor-heart { color: #db61a2; } }
   footer.site { margin-top: 3rem; color: var(--muted); font-size: .9rem; }
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfilePage","mainEntity":{"@type":"Person","name":"Mike Holp","url":"https://www.ai-automation-station.com/about.html","sameAs":["https://github.com/mikeholp87","https://www.ai-automation-station.com/"]}}</script>
@@ -34,13 +36,13 @@
 <main>
   <h1>Mike Holp</h1>
   <p class="lead">Founder of <a href="https://www.tubeanalytics.net">TubeAnalytics</a>. Open-source tools I build and maintain,
-  mostly native Linux and Windows apps in Rust. <a href="https://github.com/mikeholp87">GitHub profile</a>.
+  mostly native Linux and Windows apps in Rust. <a href="https://github.com/mikeholp87">GitHub profile</a>. <a class="sponsor" href="https://github.com/sponsors/mikeholp87"><span class="sponsor-heart" aria-hidden="true">♥</span> Sponsor my work</a>.
   Build videos and step-by-step guides for these projects are on <a href="https://www.ai-automation-station.com/guides.html">AI Automation Station</a>.</p>
   <h2>Projects <small style="color:var(--muted);font-weight:400">(@COUNT@)</small></h2>
   <section class="grid">
 @CARDS@
   </section>
-  <footer class="site">Listed automatically from my public GitHub repositories. More at <a href="https://www.ai-automation-station.com/">AI Automation Station</a>.</footer>
+  <footer class="site"><a class="sponsor" href="https://github.com/sponsors/mikeholp87"><span class="sponsor-heart" aria-hidden="true">♥</span> Sponsor</a> &middot; Listed automatically from my public GitHub repositories. More at <a href="https://www.ai-automation-station.com/">AI Automation Station</a>.</footer>
 </main>
 </body>
 </html>
